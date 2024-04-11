@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Weather</a></li>
+        <li style="float: right;"><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <main>
+      <hr>
+      <section class="weather-section">
+        <div class="page">
+          <h1>LATEST WEATHER</h1>
+          <div class="archive">
+            <article class="article">
+              <section id="stats">
+                <div class="summary">
+                  <h2>Weather Summary</h2>
+                  <h3 id="five-city">Tooele</h3>
+                    <p>Currently:
+                      <span id="current-desc">
+                        <em><strong>Cloudy with rain</strong></em>
+                      </span>
+                    </p>
+                    <p>
+                      Temperature:
+                      <span id="current-temp">
+                        <em><strong>43</strong></em>
+                      </span>
+                      °F
+                    </p>
+                    <p>
+                      Wind Chill:
+                      <span id="current-windChill">
+                        <em><strong>38</strong></em>
+                      </span>
+                      °F
+                    </p>
+                    <p>
+                      Humidity:
+                      <span id="current-humid">
+                        <em><strong>88</strong></em>
+                      </span>
+                      %
+                    </p>
+                    <p>
+                      Wind Speed:
+                      <span id="current-windSpeed">
+                        <em><strong>8</strong></em>
+                      </span>
+                      mph
+                    </p>
+                </div>
+              </section>
+              <div>
+                  <img
+                      src="WeatherIcons/Cloudy, Overcast.png"
+                      alt="Today's Weather"/>
+              </div>
+            </article>
+
+            <!-- 5 day forecast -->
+
+            <div class="article-five-day">
+              <article id="forecastContainer">
+                <h2 id="forecastTitle">5 Day Forecast</h2>
+                <h3 id="city">Tooele</h3>
+                <div class="flex">
+                  <div class="flex-col">
+                      <span id="dayTitle1" class="col-head">
+                        <u>Friday</u>
+                      </span>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon1"
+                          class="weatherIcon"/>
+                      <span class="temp-data">
+                        <span id="data1">
+                          <em><strong>43°F</strong></em>
+                          High
+                        </span>
+                      </span>
+                  </div>
+                  <div class="flex-col">
+                      <span id="dayTitle2" class="col-head">
+                        <u>Saturday</u>
+                      </span>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon2"
+                          class="weatherIcon"/>
+                      <div class="temp-data">
+                        <span id="data2">
+                          <em><strong>51°F</strong></em>
+                          High
+                        </span>
+                      </div>
+                  </div>
+                  <div class="flex-col">
+                      <span id="dayTitle3" class="col-head">
+                        <u>Sunday</u>
+                      </span>
+                        <img
+                          src="WeatherIcons/Clear, Day.png"
+                          id="weatherIcon3"
+                          class="weatherIcon"/>
+                      <div class="temp-data">
+                        <span id="data3">
+                          <em><strong>59°F</strong></em>
+                          High
+                        </span>
+                      </div>
+                  </div>
+                  <div class="flex-col">
+                      <span id="dayTitle4" class="col-head">
+                        <u>Monday</u>
+                      </span>
+                        <img
+                          src="WeatherIcons/Cloudy, Rain.png"
+                          id="weatherIcon4"
+                          class="weatherIcon"/>
+                      <div class="temp-data">
+                        <span id="data4">
+                          <em><strong>52°F</strong></em>
+                          High
+                        </span>
+                      </div>
+                  </div>
+                  <div class="flex-col">
+                      <span id="dayTitle5" class="col-head">
+                        <u>Tuesday</u>
+                      </span>
+                        <img
+                          src="WeatherIcons/Cloudy, Rain.png"
+                          id="weatherIcon5"
+                          class="weatherIcon"/>
+                      <div class="temp-data">
+                        <span id="data5">
+                          <em><strong>52°F</strong></em>
+                          High
+                        </span>
+                      </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="news-section">
+        <div class="page">
+          <h1>LATEST NEWS</h1>
+          <div class="archive">
+            <article class="article">
+              <img 
+                id="header-img" 
+                src="NewsImages/Pergnat_Uh_Oh.jpg"
+                alt="main article" />
+              <h2>
+                <a id="header-article"></a>
+              </h2>
+              <p id="header-desc">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="NewsImages/Pergnat_Uh_Oh.jpg"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="NewsImages/Pergnat_Uh_Oh.jpg"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="NewsImages/Pergnat_Uh_Oh.jpg"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="NewsImages/Pergnat_Uh_Oh.jpg"
+                alt="main article"
+              />
+              <h3>
+                <a id="article-link-1">No Article Title</a>
+              </h3>
+              <p id="article-desc-1">No Article Description.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      &copy; 
+      <span id="year">
+        2024 
+      </span>
+      | Matthew L. Cootey | 
+      <a href="https://tooeletech.edu" target="_blank" rel="noopener noreferrer">
+        <strong><u>Tooele Technical College</u></strong>
+      </a>
+        <br>
+        Last Updated: <span id="Updated"></span>
+    </footer>
+  </body>
+</html>
