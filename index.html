@@ -24,42 +24,23 @@
           <h1>LATEST WEATHER</h1>
           <div class="archive">
             <article class="article">
-              <section id="stats">
-                <div class="summary">
-                  <h2>Weather Summary</h2>
-                  <h3 id="five-city">Tooele</h3>
-                    <p>Currently:
-                      <span id="current-desc">
-                        <em><strong>Cloudy with rain</strong></em>
-                      </span>
+              <section id="currentStats">
+                <div class="currentSummary">
+                  <h2>Todays Weather Summary</h2>
+                    <p>
+                      Currently: <span id="currentDescription"></span>
                     </p>
                     <p>
-                      Temperature:
-                      <span id="current-temp">
-                        <em><strong>43</strong></em>
-                      </span>
-                      °F
+                      Temperature: <span id="currentTemperature"></span> °F
                     </p>
                     <p>
-                      Wind Chill:
-                      <span id="current-windChill">
-                        <em><strong>38</strong></em>
-                      </span>
-                      °F
+                      Wind Chill: <span id="currentWindChill">38</span>°F
                     </p>
                     <p>
-                      Humidity:
-                      <span id="current-humid">
-                        <em><strong>88</strong></em>
-                      </span>
-                      %
+                      Humidity: <span id="currentWindChill">88</span>%
                     </p>
                     <p>
-                      Wind Speed:
-                      <span id="current-windSpeed">
-                        <em><strong>8</strong></em>
-                      </span>
-                      mph
+                      Wind Speed: <span id="currentWindSpeed">8</span> mph
                     </p>
                 </div>
               </section>
@@ -234,5 +215,7 @@
         <br>
         Last Updated: <span id="Updated"></span>
     </footer>
+    <script src="weather-header.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

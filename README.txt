@@ -47,9 +47,16 @@ MC{
             ~   README.txt                                          [dir/]
             ~   origin
                     Remote @ https://www.github.com/FunKodeT/M4PJSWeatherNews.git/
-            ~   script.js                                           [dir/]
-                    ^0.0^
             ~   weather-header.js                                   [dir/]
                     ^0.0^
         -   Updated:
             ~   README.txt                                          [dir/]
+
+**BRANCH 1**
+    **VERSION 1.0**
+        -   Branch '1' initialized
+        -   Added:
+            ~   script.js                                           [dir/]
+                    ^0.0^
+        -   Updated:
+                ~   README.txt                                      [dir/]
