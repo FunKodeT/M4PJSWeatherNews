@@ -64,7 +64,12 @@ MC{
                 ~	weather-header.js								[dir/]
 						^0.0	=	0.1^
                 ~README.txt											[dir/]
-
+		**VERSION 0.2**
+			-	Local repo '1' merged into '0'
+			-	Prepped for push to remote 'origin'
+			-	Pushed to remote 'origin'
+			-	Updated:
+				~ README.txt										[dir/]
 **BRANCH 1**
     **VERSION 1.0**
         -   Branch '1' initialized
