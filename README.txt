@@ -1,20 +1,20 @@
 *******VERSION HISTORY*******
- _______________________________
-|*******************************|
-|************LEGEND*************|
-|*******************************|
-|							    |
-|	**	    -	OUTLINE			|
-|	~  	    -	SECTION			|
-|	()	    -	NOTE			|
-|	[]	    -	LOCATION		|
-|	@	    -	LINK			|
-|	=	    -	NEW LOCATION	|
-|	^^	    -	FILE VERSION	|
-|	&+	    -	AND CONTENTS	|
-|	+	    -	CONTENTS        |
-|   MC{}    -   NOTIFICATION	|
-|_______________________________|
+ _______________________________________
+|***************************************|
+|****************LEGEND*****************|
+|***************************************|
+|                                       |
+|	**	-       OUTLINE         |
+|	~  	-	SECTION         |
+|	()	-	NOTE            |
+|	[]	-	LOCATION        |
+|	@	-	LINK            |
+|	=	-	NEW LOCATION    |
+|	^^	-	FILE VERSION    |
+|	&+	-	AND CONTENTS    |
+|	+	-	CONTENTS        |
+|       MC{}    -   NOTIFICATION        |
+|_______________________________________|
 
 MC{
     TO VIEW ORIGINAL REPOSITORIES PRE-CLEANUP, PLEASE SEE THE FOLLOWING LINKS FOR THE APPROPRIATE REPOSITORIES:
@@ -51,6 +51,19 @@ MC{
                     ^0.0^
         -   Updated:
             ~   README.txt                                          [dir/]
+        **VERSION 0.1***
+                -       Updated to push to remote for pull to main desktop
+                -       Pushed to remote origin
+        **VERSION 0.1**
+                -       Pulled to main desktop
+                -       Updated:
+                        ~       index.html                              [dir/]
+                                ^0.0   =        0.1^
+                        ~       styles.css                              [dir/]
+                                ^0.0   =        0.1^
+                        ~       weather-header.js                       [dir/]
+                                ^0.0   =        0.1^
+                        ~       README.txt                              [dir/]
 
 **BRANCH 1**
     **VERSION 1.0**

@@ -44,20 +44,23 @@ currentTemperature.textContent = fahrTemp;
 // let fahrenheitKelvin = celsiusFahrenheit + 273; 
 // let kelvinFahrenheit = celsius + 273;
 // #######################################################################################################
-//                                              ESTABLISHING CURRENT WINDCHILL VARIABLE
-// #######################################################################################################
-let currentWindChill = document.createElement("span");
-currentWindChill.setAttribute("id, currentWindChill");
-// #######################################################################################################
 //                                              ESTABLISHING CURRENT HUMIDITY VARIABLE
 // #######################################################################################################
-let currentHumidity = document.createElement("span");
-currentHumidity.setAttribute("id, currentHumidity");
+let humidity = jsObject.main.humidity;
+let currentHumidity = document.querySelector("#currentHumidity");
+currentHumidity.textContent = humidity;
 // #######################################################################################################
 //                                              ESTABLISHING CURRENT WINDSPEED VARIABLE
 // #######################################################################################################
-let currentWindSpeed = document.createElement("p");
-currentWindSpeed.setAttribute("id", "currentWindSpeed");
-
-// currentWeather.appendChild(cityName);
+let windSpeed = jsObject.wind.speed;
+// console.log(windSpeed);
+let currentWindSpeed = document.querySelector("#currentWindSpeed");
+currentWindSpeed.textContent = windSpeed;
+// #######################################################################################################
+//                                              ESTABLISHING CURRENT WINDCHILL VARIABLE
+// #######################################################################################################
+let windChill = Math.floor(fahrTemp - (windSpeed * 0.7));
+console.log(windChill);
+let currentWindChill = document.querySelector("#currentWindChill");
+currentWindChill.textContent = windChill;
 })
