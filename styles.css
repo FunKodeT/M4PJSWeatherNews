@@ -1,5 +1,9 @@
-/* navigation */
+/* GENERAL */
+*{
+    text-decoration: none;
+}
 
+/* NAVIGATION STYLE */
 a{
     color: #111;
 }
@@ -28,8 +32,7 @@ li a:hover:not(.active){
     background-color: #048caa;
 }
 
-/* Style general */
-
+/* BODY GENERAL STYLE */
 body{
     background: rgb(197,190,190);
     color: #111;
@@ -37,9 +40,59 @@ body{
     font-family: sans-serif;
     line-height: 1.15;
 }
+/* WEATHER STYLE */
+.article-five-day{
+    grid-column: 1 / -1;
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 20px 20px rgba(0,0,0,0.05);
+    background-color: (200,200,255, 0.3);
+}
+.five-article{
+    text-align: center;
+}
+#forecastTitle{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex-col{
+    text-align: center;
+    margin-right: 50px;
+}
+#currentStats{
+    text-align: start;
+    float: left;
+}
+.currentSummary{
+    border: 3px solid #00000038;
+    border-radius: 3px;
+    padding: 4px;
+}
+.currentSummary h2, h3{
+    text-align: center;
+    border-bottom: 1px solid #00000038;
+}
+.currentSummary p span{
+    font-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.temp-data{
+    margin-left: 10px;
+    display: flex;
+}
+.weatherIcon{
+    display: flex;
+    margin-left: 0px;
+}
+footer{
+    text-align: center;
+}
 
-/* news section */
-
+/* NEWS STYLE */
 hr{
     height: 6px;
     border: none;
@@ -48,6 +101,13 @@ hr{
     padding: 2em;
     background: #cecece;
     max-width: 100%;
+}
+.page h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 2em;
+    border: 3px solid #00000038;
+    border-radius: 4px;
 }
 .archive{
     display: grid;
@@ -77,6 +137,10 @@ hr{
     height: 125px;
     background-color: #048caa;
 }
+.article a h3{
+    border: 1px solid #00000038;
+    border-radius: 2px;
+}
 .article:nth-child(1){
     grid-column: 1 / -1;
     background: rgba(200,200,255,0.3);
@@ -88,6 +152,10 @@ hr{
 .article:nth-child(8):after{
     content: "grid-column: -3 / -1";
 }
+
+
+
+/* VIEWPORT VARIATION STYLE */
 @media (max-width: 680px){
     .archive{
         display: flex;
@@ -97,48 +165,3 @@ hr{
         margin-bottom: 1em;
     }
 }
-
-/* weather section */
-
-.article-five-day{
-    grid-column: 1 / -1;
-    padding: 15px;
-    margin-top: 15px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 20px 20px rgba(0,0,0,0.05);
-    background-color: (200,200,255, 0.3);
-}
-.five-article{
-    text-align: center;
-}
-#city{
-    text-align: center;
-}
-#forecastTitle{
-    text-align: center;
-}
-.flex{
-    display: flex;
-    justify-content: center;
-}
-.flex-col{
-    text-align: center;
-    margin-right: 50px;
-}
-#currentStats{
-    text-align: start;
-    float: left;
-}
-.temp-data{
-    margin-left: 10px;
-    display: flex;
-}
-.weatherIcon{
-    display: flex;
-    margin-left: 0px;
-}
-footer{
-    text-align: center;
-}
-/* p #currentDescription:first-letter{
-    text-transform: capitalize;
-} */

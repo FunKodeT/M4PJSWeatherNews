@@ -4,16 +4,16 @@
 |****************LEGEND*****************|
 |***************************************|
 |                                       |
-|	**		-   OUTLINE         		|
-|	~		-	SECTION         		|
-|	()		-	NOTE            		|
-|	[]		-	LOCATION        		|
-|	@		-	LINK            		|
-|	=		-	NEW LOCATION    		|
-|	^^		-	FILE VERSION    		|
-|	&+		-	AND CONTENTS    		|
-|	+		-	CONTENTS        		|
-|	MC{}	-	NOTIFICATION			|
+|	**	-       OUTLINE         |
+|	~	-	SECTION         |
+|	()	-	NOTE            |
+|	[]	-	LOCATION        |
+|	@	-	LINK            |
+|	=	-	NEW LOCATION    |
+|	^^	-	FILE VERSION    |
+|	&+	-	AND CONTENTS    |
+|	+	-	CONTENTS        |
+|	MC{}	-	NOTIFICATION	|
 |_______________________________________|
 
 MC{
@@ -68,23 +68,8 @@ MC{
 **BRANCH 1**
     **VERSION 1.0**
         -   Branch '1' initialized
-		-	Additonal styling added in styles.css
-		-	Dynamic news articles implemented via JavaScript
-		-	Formatting of certain lines in index.html modified to preference
-		-	Local repo '1' merged into '0'
         -   Added:
-			~	1
-					(Branch)
-			~	news-header.js										[dir/]
-					^0.0^
+        -   Removed:
+			~	script.js											[dir/]
         -   Updated:
                 ~   README.txt                                      [dir/]
-				~	index.html										[dir/]
-						^0.1	=	1.0^
-				~	news-header.js									[dir/]
-						^0.0	=	1.0^
-				~	styles.css										[dir/]
-						^0.1	=	1.0^
-		-   Removed:
-				~	script.js										[dir/]
-						^0.0^
